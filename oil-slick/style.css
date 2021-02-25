@@ -1,0 +1,60 @@
+@font-face{
+  font-family: "Mazius Review";
+  src: url(mazius-review-extra-italic.woff2);
+}
+
+body {
+	font-family: "Mazius Review";
+  font-style: italic;
+  font-weight: 600;
+	font-size: 70px;
+	line-height: 1.5;
+  
+  background-color: #000000;
+  color: #ffffff;
+  min-height: 100vh;
+  
+  display: flex;
+  
+}
+
+div.wrap{ 
+  border: 2px solid white;
+  margin: 48px;
+  width: 100%;
+}
+p{
+  position: fixed;
+  letter-spacing:  12px;
+  
+}
+
+p.time{
+  top: 10%;
+  left: 12%;
+}
+
+p.alone{
+  top: 30%;
+  left: 45%;
+}
+
+p.with{
+  top: 60%;
+  left: 30%;
+}
+
+p.you{
+  top: 80%;
+  left: 75%;
+}
+
+canvas{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vmax;
+  height: 100vmax;
+  z-index: -1;
+}
